@@ -9,6 +9,8 @@
 # --- Required options --- #
 ############################
 
+url: "http://gunturadhtya.github.io"
+
 # Name of website
 title: Guntur Blog
 
@@ -62,7 +64,7 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: deanat78
+  instagram: gun_tourtheworld
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -261,7 +263,16 @@ highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
+lsi: false
+safe: true
+# source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
