@@ -21,7 +21,7 @@ author: Muhammad Guntur Ricky Adhitya
 # --- List of links in the navigation bar --- #
 ###############################################
 
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
 navbar-links:
   About Me: "aboutme"
