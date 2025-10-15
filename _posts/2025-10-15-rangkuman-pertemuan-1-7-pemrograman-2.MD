@@ -266,7 +266,7 @@ Dideklarasikan secara lokal
 **Polymorphism** -> Menimpa method
 
 ```
-@overloading
+@override
 public void nama_method(){
     ...
 }
