@@ -6,28 +6,144 @@ categories: [jekyll, blogging]
 tags: [Pemrograman2, Matkul]
 ---
 
-Class -> Blueprint
-Objek -> Suatu entitas yg nyata
+## Kontrak Kuliah
+- Konsep dasar pemrograman java
+- Percabangan perulangan
+- Tipe data array dab collection
+- Object dan class
+- Class string dan string method
+- Constructor
+- Encapsulation
+- Inheritance
+- Polmorphisme
+- Abstrak class & interface
+- Pengelanan GUI
+
+Minimal kehadiran 80% <br>
+Apabila Tidak Memenuhi, nilai dipotong 50%
+
+### Penilaian
+- 10% presensi
+- 20% tugas
+- 30% UTS
+- 40% UAS
+
+### UAS
+Case base <br>
+Membuat sebuah aplikasi sederhana berbasis GUI <br>
+Segala tindak plagiasi dapat menjadi nilai 0
+Paradigma <br>
+
+### Metodologi / konsep
+Digunakan untuk mengenbangkan sebuah peogram <br>
+Toolsnya bahasa pemrograman <br>
+Menerapkan bahasa pemrograman tersebut kita menggunakan paradigma pemrograman
+
+
+Paradigma paling populer yaotu imperative
+- Procedural programming
+- Structural
+- Object Oriented
+- Paradigma declarative
+
+### Structural Paradigm
+Syntax Go To untuk lompat ke baris tertentu
+
+### Procedural dan Functional
+- Procedural adalah fungsi yg tidak mengembalikan nilai
+- Functional adalah fungsi yang mengembalikan nilai
+
+
+### Objek oriented programming
+Representasi dalam program memiliki objek <br>
+Tiap projek kompleks berbasis objek
+
+
+Pengenalan Java
+- Java untuk multiplatform
+- JVM (Java Virtual Machine)
+- JDK
+- JRE
+
+Meminimalisir kode yg terulang<br>
+
+**Kenapa java?** <br> 
+karna java mewajibkan paradigma OOP, karena itu java bagus untuk belajar OOP <br>
+
+- package: memberi tahu dimana source code berada
+- Import: menghubungkan source code antara folder yg berbeda
+- Penamaan class diharuskan menggunakan Capital
+
+**Class** -> Blueprint <br>
+**Objek** -> Suatu entitas yg nyata
 
 ## Atribut
-Atribut adalah variabel dalam class
+Atribut adalah variabel dalam class<br>
 Atribut dapat berupa objek
 
 ## Constructor
+**Constuctor** -> Method spesial untuk menginisialisasi objek
+
+dipanggil pada saat kita membuat objek dari kelas
+nama constructor sama dengan nama class
+
+di dalam constructor jangan ada print, karna cuma untuk inisialisasi saja
+
+```
+public class_name{
+    class_name(parameter){
+        ...
+    }
+}
+```
+
+
+Inisialisasi Constructor
+```
 class_name object_name = new class_name()
+```
+
+notes: best practice assign value suatu variable di dalam constructor
 
 ## Method
+**Method** -> Blok kode yang melakukan tugas tertentu
 
+Untuk meningkatkan efesiensi dan kerapian kode
+
+Method lebih menunjukan perilaku sebuah objek dibanding fungsi
+
+Struktur Method
+```
+<modifier> <data-type> <method-name> (parameter-list[])
+{
+... body of the method
+}
+```
+
+Fungsi Procedural --> tidak mengembalikan nilai<br>
+Fungsi Functional --> mengembalikan nilai
+
+camelCase untuk method
+
+Reusability
+Modularity
+
+Notes:
+nama Method harus memakai kata kerja
+
+## Control Flow
 Mengontrol alur program
 
-penulisan if pada java boleh tanpa braces tetapi hanya berlaku pada satu baris saja
+- Satu Cabang (if)
+- Dua Cabang (else)
+- Tiga Cabang (else if)
 
-## Satu Cabang (if)
-## Dua Cabang (else)
-## Tiga Cabang (else if)
+notes: penulisan if pada java boleh tanpa braces tetapi hanya berlaku pada satu baris saja
 
 ## Ternary Operator 
+```
 variable = (condition) ? expressionTrue : expressionFalse;
+```
 
 ## Nested Loop
 ## Operator Logika
@@ -48,18 +164,24 @@ for(iterate : collection){
 }
 
 ## While
-while -> perulangan yg dilakukan selama kondisi benar
+while -> perulangan yg dilakukan selama kondisi benar <br>
 while lebih flexibel daripada for
+```
 while(condition){
 ...
 }
+```
+
 
 ## Do While
-do while -> sama seperti while tetapi menjalankan statement kemudian menjalankan kondisi
+do while -> sama seperti while tetapi menjalankan statement kemudian menjalankan kondisi <br>
 akan guarantee untuk menjalankan statement setidaknya satu kali
+```
 do {
 ...
 } while(condition)
+```
+
 
 ## Common Loop Mistake
 1. Infinite Loop
@@ -67,71 +189,28 @@ do {
 3. Modifying loop variable inside the loop
 4. Empty Loop
 
-## Pertanyaan
-Polimorfisme itu untuk apa dalam pengembangan aplikasi atau game
-
+## Collection
 diperbolehkan memanfaatkan class builtin 
-
 - java.lang.Math
 - java.util.Arrays
 - java.util.ArrayList
 
-Constuctor -> Method spesial untuk menginisialisasi objek
-
-dipanggil pada saat kita membuat objek dari kelas
-nama constructor sama dengan nama class
-
 # Scope
-Scope Global -> dideklarasikan di dalam class tapi di luar method
+Scope Global -> dideklarasikan di dalam class tapi di luar method <br>
 Scope Local -> dideklarasikan di dalam method
 
 # This
-merujuk ke variabel global
-
-di dalam constructor jangan ada print, karna cuma untuk inisialisasi saja
-
-Masing-masing pilih objek tangibel dan intangibel
-
-Atribut
-Constuctor
-Method
-
-Notes:
-best practice assign value suatu variable di dalam constructor
-
-Method -> Blok kode yang melakukan tugas tertentu
-
-Untuk meningkatkan efesiensi dan kerapian kode
-
-Method lebih menunjukan perilaku sebuah objek dibanding fungsi
-
-Struktur Method
-```
-<modifier> <data-type> <method-name> (parameter-list[])
-{
-... body of the method
-}
-```
-
-Fungsi Procedural
-Fungsi Functional
-
-camelCase untuk method
-
-Reusability
-Modularity
+merujuk ke atribut di dalam objek
 
 ## Call Stack
 Last-In-First-Out
-
-Notes:
-nama Method harus memakai kata kerja
 
 ## Static dan Non Static
 Why? 
 tiap kali membuat class perlu diinisialisasi objek, tetapi ada case dimana class digunakan untuk menampung method saja.
 
 dalam case inilah static digunakan.
+## Enkapsulasi
 
 Mengikat data dan metode dalam satu unit
 
@@ -151,16 +230,18 @@ private -> hanya bisa diakses di class tersebut saja
 
 rekomendasi semua variabel di private tapi sesuai kebutuhan saja
 
-di dalam class object tidak boleh ada method main, 
-atribute
-constructor
-setter
-getter
-method
+di dalam class object tidak boleh ada method main <br>
+
+class object terdiri dari: 
+- atribute
+- constructor
+- setter
+- getter
+- method
 
 ## Inheritance
 
-subclass
+subclass <br>
 superclass
 
 inheritance digunakan untuk reusable code
@@ -169,22 +250,24 @@ inheritance digunakan untuk reusable code
 
 Boleh tidak ada atribut atau method tetapi tidak keduanya
 
-## Association
+### Association
 relasi yg lebih umum
 
-## Aggregation
+### Aggregation
 Objek dideklarasikan di luar, bukan di dalam class
 
-## Composition
+### Composition
 Dideklarasikan secara lokal
 
-## Inheritance
+### Inheritance
 
 ## Polymorphism
 
-## Menimpa 
-override
+**Polymorphism** -> Menimpa method
 
-flag
-
-## Overloading
+```
+@overloading
+public void nama_method(){
+    ...
+}
+```
