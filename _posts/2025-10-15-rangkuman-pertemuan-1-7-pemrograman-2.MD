@@ -153,15 +153,21 @@ tipe data primitive tidak bisa diberikan nilai null, cuma objek saja
 
 ## For
 for -> perulangan dilakukan sebanyak yg ditetapkan\
+```
 for(inisialisasi; condition; increment/decrement){
 ...
 }
+```
+
 
 ## For Each
 for each -> untuk melakukan iterasi collection
+```
 for(iterate : collection){
 ...
 }
+```
+
 
 ## While
 while -> perulangan yg dilakukan selama kondisi benar <br>
