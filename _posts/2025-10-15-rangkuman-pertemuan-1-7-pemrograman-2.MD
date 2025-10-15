@@ -1,10 +1,59 @@
 ---
 layout: post
 title: "Rangkuman Catatan Pertemuan 1 sampai 7 Pemrograman II P1"
-date: 2025-10-15 08:00:00 +0700
+date: 2025-10-15 16:00:00 +0700
 categories: [jekyll, blogging]
 tags: [Pemrograman2, Matkul]
 ---
+## Daftar Isi
+- [Ulangan Tengah Semester](#uts)
+- [Kontrak Kuliah](#kontrak-kuliah)
+- [Penilaian](#penilaian)
+- [UAS](#uas)
+- [Metodologi / Konsep](#metodologi--konsep)
+    - [Structural Paradigm](#structural-paradigm)
+    - [Procedural dan Functional](#procedural-dan-functional)
+    - [Objek Oriented Programming](#objek-oriented-programming)
+- [Pengenalan Java](#pengenalan-java)
+- [Atribut](#atribut)
+- [Constructor](#constructor)
+- [Method](#method)
+- [Control Flow](#control-flow)
+- [Ternary Operator](#ternary-operator)
+- [Nested Loop](#nested-loop)
+- [Operator Logika](#operator-logika)
+- [Switch](#switch)
+- [For](#for)
+- [For Each](#for-each)
+- [While](#while)
+- [Do While](#do-while)
+- [Common Loop Mistake](#common-loop-mistake)
+- [Collection](#collection)
+- [Scope](#scope)
+- [This](#this)
+- [Call Stack](#call-stack)
+- [Static dan Non Static](#static-dan-non-static)
+- [Enkapsulasi](#enkapsulasi)
+- [Access Modifier](#access-modifier)
+- [Inheritance](#inheritance)
+- [Class Diagram](#class-diagram)
+    - [Association](#association)
+    - [Aggregation](#aggregation)
+    - [Composition](#composition)
+    - [Inheritance](#inheritance-1)
+- [Polymorphism](#polymorphism)
+    - [Override](#override)
+    - [Overloading](#overloading)
+    - [Penggunaan Overloading](#penggunaan-overloading)
+- [Abstraction](#abstraction)
+    - [Interface](#interface)
+
+
+## UTS
+minggu depan uts <br>
+materi sampai abstraksi <br>
+tertulis <br>
+melatih pemahaman konsep <br>
 
 ## Kontrak Kuliah
 - Konsep dasar pemrograman java
@@ -91,9 +140,9 @@ di dalam constructor jangan ada print, karna cuma untuk inisialisasi saja
 
 ```
 public class_name{
-    class_name(parameter){
-        ...
-    }
+    class_name(parameter){
+        ...
+    }
 }
 ```
 
@@ -274,6 +323,96 @@ Dideklarasikan secara lokal
 ```
 @override
 public void nama_method(){
-    ...
+    ...
 }
 ```
+
+### Override 
+Override / Runtime Polymorphism
+
+Berfungsi saat sebuah kelas menggunakan inheritance, method subclass akan mengoverride method dari superclass
+
+annotation @Override sebagai penanda, tidak berpengaruh pada perilaku program
+
+### Overloading
+Overloading / Compile Time Polymorphism, Static Polymorphism
+
+Membuat method dengan nama yang sama tetapi dengan method yang berbeda
+
+Ciri utama
+Banyak method memiliki nama yang sama
+meningkatkan flexibelitas
+Overloading tidak bisa dilakukan hanya dengan mengubah return typenya
+
+```
+public int sum(int x, int y){
+    return x + y;
+}
+
+public int sum(int x, int y, int z){
+    return x + y + z;
+}
+
+public double sum(double x, double y){
+    return x + y;
+}
+```
+
+Cara membuat method overloading
+1. Mengubah jumlah Parameter
+2. Mengubah tipe data dari return type
+3. Mengubah urutan parameter berdasarkan tipe datanya, perubahan nama parameter tidak berpengaruh
+
+### Penggunaan Overloading
+overloading digunakan untuk suatu kasus dimana hanya beberapa parameter saja yang digunakan atau parameter yang dibutuhkan berbeda untuk kasus yang sama.
+
+## Abstraction
+
+Konsep utama dalam pemrograman berorientasi objek
+
+suatu proses yang menyembunyikan detail implementasi internal  dan hanya menampilkan fungsi esensial saja. berfokus pada apa yang dilakukan bukan bagaimana dilakukan
+
+Abstact class hanya membuat methodnya saja tetapi tidak mengimplementasinya
+
+ketika membuat method dalam abstract class, wajib di override
+
+method abstract tidak boleh memiliki isi
+
+```
+abstract class <class_name>{
+    abstract <return_type> <method_name>(parameter);
+}
+```
+
+untuk memakai class abstract
+```
+public class <class_name> extends <abstract_class_name>{
+    ...
+}
+```
+
+Q: kalau misal aku menggunakan overloading di abstract apakah perlu mengimplementasi semua method overloadingnya?
+A: harus semuanya
+
+### Interface
+- Abstract Classes (Partial Abstraction)
+- Interface (100% Abstraction)
+
+deklarasi interface
+```
+interface <nama_interface>{
+    method-method wajib;
+}
+```
+
+menggunakan interface
+```
+class <nama_class> implements <nama_interface> {
+}
+```
+
+di interface variabel / atribut harus diinisialisasikan sebagai konstanta atau final.
+
+abstraksi semacam kontrak
+
+jika overused membuat kompleksitas yang tidak diperlukan
