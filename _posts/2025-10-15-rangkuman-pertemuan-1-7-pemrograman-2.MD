@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rangkuman Catatan Pertemuan 1 sampai 7 Pemrograman II P1"
-date: 2025-10-15 16:00:00 +0700
+date: 2025-10-15 15:00:00 +0700
 categories: [jekyll, blogging]
 tags: [Pemrograman2, Matkul]
 ---
