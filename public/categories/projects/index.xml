@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi, I’m Guntur on Guntur</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content in Hi, I’m Guntur on Guntur</description>
+    <title>Projects on Guntur</title>
+    <link>//localhost:1313/categories/projects/</link>
+    <description>Recent content in Projects on Guntur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="//localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>GeoSynthetizer</title>
@@ -36,16 +36,6 @@
       
       <guid>//localhost:1313/projects/a-match-made-in-dungeon/</guid>
       <description>A simple showcase entry for A Match Made in Dungeon.</description>
-      
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>//localhost:1313/posts/hello-world/</link>
-      <pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate>
-      
-      <guid>//localhost:1313/posts/hello-world/</guid>
-      <description>My first post on this Hugo + Blowfish blog.</description>
       
     </item>
     
