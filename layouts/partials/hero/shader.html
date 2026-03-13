@@ -1,0 +1,18 @@
+<!-- Shader Hero Background (Partial Height) -->
+<div class="fixed inset-x-0 top-0 -z-10 h-96">
+  <canvas id="shader-canvas-hero" class="w-full h-full"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+{{ $shaderScript := resources.Get "js/shader-background.js" }}
+<script>{{ $shaderScript.Content | safeJS }}</script>
+<script>
+  // Initialize hero shader with specific canvas
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      initShaderBackground('shader-canvas-hero');
+    });
+  } else {
+    initShaderBackground('shader-canvas-hero');
+  }
+</script>

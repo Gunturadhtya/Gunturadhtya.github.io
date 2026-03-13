@@ -12,6 +12,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
         {{ $shaderScript := resources.Get "js/shader-background.js" }}
         <script>{{ $shaderScript.Content | safeJS }}</script>
+        <script>
+          // Initialize homepage shader
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+              initShaderBackground('shader-canvas');
+            });
+          } else {
+            initShaderBackground('shader-canvas');
+          }
+        </script>
 
         <!-- Author Profile Section -->
         <div class="relative flex flex-col items-center justify-center px-1 py-1 text-center">

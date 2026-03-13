@@ -137,12 +137,12 @@ const fragmentShader = `
   }
 `;
 
-function initShaderBackground() {
-  const canvas = document.getElementById('shader-canvas');
+function initShaderBackground(canvasId = 'shader-canvas') {
+  const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
   const width = window.innerWidth;
-  const height = window.innerHeight;
+  const height = canvas.parentElement.offsetHeight;
 
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
