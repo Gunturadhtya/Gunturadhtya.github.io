@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Guntur</title><link>/tags/</link><description>Recent content in Tags on Guntur</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026</copyright><lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Github</title><link>/tags/github/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>/tags/github/</guid><description/></item><item><title>Opensource</title><link>/tags/opensource/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>/tags/opensource/</guid><description/></item><item><title>Tool</title><link>/tags/tool/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>/tags/tool/</guid><description/></item><item><title>Game</title><link>/tags/game/</link><pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate><guid>/tags/game/</guid><description/></item><item><title>Itch.io</title><link>/tags/itch.io/</link><pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate><guid>/tags/itch.io/</guid><description/></item><item><title>Rhythm</title><link>/tags/rhythm/</link><pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate><guid>/tags/rhythm/</guid><description/></item><item><title>Intro</title><link>/tags/intro/</link><pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate><guid>/tags/intro/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Guntur</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Guntur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>http://localhost:1313/tags/opensource/</link>
+      <pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/opensource/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>http://localhost:1313/tags/tool/</link>
+      <pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/tool/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/tags/game/</link>
+      <pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/game/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Itch.io</title>
+      <link>http://localhost:1313/tags/itch.io/</link>
+      <pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/itch.io/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rhythm</title>
+      <link>http://localhost:1313/tags/rhythm/</link>
+      <pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/rhythm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/tags/intro/</link>
+      <pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/intro/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

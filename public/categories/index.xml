@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Guntur</title><link>/categories/</link><description>Recent content in Categories on Guntur</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026</copyright><lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>/categories/projects/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>/categories/projects/</guid><description/></item><item><title>General</title><link>/categories/general/</link><pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate><guid>/categories/general/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Guntur</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Guntur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
