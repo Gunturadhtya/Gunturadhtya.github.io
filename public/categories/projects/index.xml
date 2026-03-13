@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -41,3 +42,6 @@
     
   </channel>
 </rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Guntur</title><link>https://gunturadhtya.github.io/categories/projects/</link><description>Recent content in Projects on Guntur</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026</copyright><lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="https://gunturadhtya.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>GeoSynthetizer</title><link>https://gunturadhtya.github.io/projects/geosynthetizer/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>https://gunturadhtya.github.io/projects/geosynthetizer/</guid><description>A simple showcase entry for GeoSynthetizer.</description></item><item><title>Rhythm Qubert</title><link>https://gunturadhtya.github.io/projects/rhythm-qubert/</link><pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate><guid>https://gunturadhtya.github.io/projects/rhythm-qubert/</guid><description>A simple showcase entry for Rhythm Qubert.</description></item><item><title>A Match Made in Dungeon</title><link>https://gunturadhtya.github.io/projects/a-match-made-in-dungeon/</link><pubDate>Fri, 13 Mar 2026 12:00:00 +0700</pubDate><guid>https://gunturadhtya.github.io/projects/a-match-made-in-dungeon/</guid><description>A simple showcase entry for A Match Made in Dungeon.</description></item></channel></rss>
+>>>>>>> gh-pages

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -31,3 +32,6 @@
     
   </channel>
 </rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Guntur</title><link>https://gunturadhtya.github.io/categories/</link><description>Recent content in Categories on Guntur</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026</copyright><lastBuildDate>Fri, 13 Mar 2026 12:10:00 +0700</lastBuildDate><atom:link href="https://gunturadhtya.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://gunturadhtya.github.io/categories/projects/</link><pubDate>Fri, 13 Mar 2026 12:10:00 +0700</pubDate><guid>https://gunturadhtya.github.io/categories/projects/</guid><description/></item><item><title>General</title><link>https://gunturadhtya.github.io/categories/general/</link><pubDate>Fri, 13 Mar 2026 10:00:00 +0700</pubDate><guid>https://gunturadhtya.github.io/categories/general/</guid><description/></item></channel></rss>
+>>>>>>> gh-pages
