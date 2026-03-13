@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rhythm on Guntur</title><link>/tags/rhythm/</link><description>Recent content in Rhythm on Guntur</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026</copyright><lastBuildDate>Fri, 13 Mar 2026 12:05:00 +0700</lastBuildDate><atom:link href="/tags/rhythm/index.xml" rel="self" type="application/rss+xml"/><item><title>Rhythm Qubert</title><link>/projects/rhythm-qubert/</link><pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate><guid>/projects/rhythm-qubert/</guid><description>A simple showcase entry for Rhythm Qubert.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rhythm on Guntur</title>
+    <link>//localhost:1313/tags/rhythm/</link>
+    <description>Recent content in Rhythm on Guntur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Fri, 13 Mar 2026 12:05:00 +0700</lastBuildDate><atom:link href="//localhost:1313/tags/rhythm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rhythm Qubert</title>
+      <link>//localhost:1313/projects/rhythm-qubert/</link>
+      <pubDate>Fri, 13 Mar 2026 12:05:00 +0700</pubDate>
+      
+      <guid>//localhost:1313/projects/rhythm-qubert/</guid>
+      <description>A simple showcase entry for Rhythm Qubert.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
