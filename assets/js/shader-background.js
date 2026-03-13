@@ -98,7 +98,7 @@ const vertexShader = `
     // Mouse influence
     vec2 mouseNorm = mouse;
     float mouseDist = distance(uv, mouseNorm);
-    float mouseInfluence = exp(-mouseDist * mouseDist * 2.0) * 0.3;
+    float mouseInfluence = exp(-mouseDist * mouseDist * 4.0) * 0.6;
     
     noise += mouseInfluence;
     vNoise = noise;
@@ -116,20 +116,21 @@ const fragmentShader = `
   varying float vNoise;
 
   void main() {
-    vec3 color1 = vec3(0.24, 0.38, 0.07);  // Dark green (63, 98, 18)
-    vec3 color2 = vec3(0.02, 0.47, 0.34);  // Emerald (5, 120, 87)
-    vec3 color3 = vec3(0.30, 0.61, 0.06);  // Lime (77, 124, 15)
+    vec3 color1 = vec3(0.12, 0.18, 0.03);  // Very muted green
+    vec3 color2 = vec3(0.01, 0.25, 0.15);  // Very muted blue-green
+    vec3 color3 = vec3(0.15, 0.30, 0.03);  // Very muted lime
     
     // Create animated color shifts
     float t = sin(time * 0.5) * 0.5 + 0.5;
     vec3 baseColor = mix(mix(color1, color2, t), color3, sin(time * 0.3) * 0.5 + 0.5);
     
     // Add noise-based color variation
-    vec3 finalColor = baseColor + vNoise * 0.2;
+    vec3 finalColor = baseColor + vNoise * 0.05;
+    // vec3 finalColor = baseColor;
     
     // Add vignette effect
     vec2 vignetteUv = vUv - 0.5;
-    float vignette = 1.0 - length(vignetteUv) * 0.8;
+    float vignette = 1.0 - length(vignetteUv) * 0.0;
     
     finalColor *= vignette;
     
@@ -197,8 +198,8 @@ function animate() {
   time += 0.016; // ~60fps
 
   // Smooth mouse interpolation
-  mouseX += (targetMouseX - mouseX) * 0.1;
-  mouseY += (targetMouseY - mouseY) * 0.1;
+  mouseX += (targetMouseX - mouseX) * 0.5;
+  mouseY += (targetMouseY - mouseY) * 0.5;
 
   mesh.material.uniforms.time.value = time;
   mesh.material.uniforms.mouse.value.set(mouseX, mouseY);
