@@ -1,0 +1,70 @@
+/* Animated gradient background matching avocado color scheme */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Avocado color palette */
+/* Primary: #6B8E23 (Olive Drab)
+   Secondary: #8FBC8F (Dark Sea Green)
+   Accent: #9ACD32 (Yellow Green)
+   Light: #BFEF45 (Light Green)
+*/
+
+body.homepage-animated-bg {
+  background: linear-gradient(
+    -45deg,
+    #6B8E23 0%,
+    #8FBC8F 25%,
+    #9ACD32 50%,
+    #8FBC8F 75%,
+    #6B8E23 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 12s ease infinite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Alternative: Smooth wave animation */
+@keyframes gradient-wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body.homepage-animated-wave {
+  background: linear-gradient(
+    135deg,
+    #6B8E23 0%,
+    #9ACD32 25%,
+    #8FBC8F 50%,
+    #9ACD32 75%,
+    #6B8E23 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-wave 15s ease-in-out infinite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
